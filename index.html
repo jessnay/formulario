@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Formulário teste 02</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Georama:wght@200&display=swap');
+    </style>
+
+  </head>
+  <body>
+    <div class="form-container">
+      <form>
+        <h3>Sign In</h3>
+
+        <div class="input-container">
+          <input type="text" placeholder="Name" />
+          <i data-feather="user"></i>
+        </div>
+
+        <div class="input-container">
+          <input type="email" placeholder="Email Adress" />
+          <i data-feather="mail"></i>
+        </div>
+
+        <div class="input-container">
+          <input type="Password" placeholder="Password" />
+          <i data-feather="lock"></i>
+        </div>
+
+        <div class="options-container">
+          <div class="checkbox-container">
+            <input type="checkbox" nme="remember" id="remember" />
+            <label for="Remember"> Remember me </label>
+          </div><a href="www.google.com">Resert Password</a>
+        </div>
+        <input type="submit" value="Sing in"/>
+      </form>
+    </div>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
